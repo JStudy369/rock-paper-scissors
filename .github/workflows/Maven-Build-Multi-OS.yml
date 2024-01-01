@@ -27,8 +27,8 @@ jobs:
       - name: Step 3 - Have GitHub Actions Build Maven Project
         run: mvn -B package --file pom.xml
 
-      - name: Step 4 - list current directory
-        run: ls -a
+      - name: Step 4 - List the environment variables
+        run: env
 
       - name: Step 5 - What is the target folder?
         run: |
@@ -54,8 +54,8 @@ jobs:
       - name: Step 3 - Have GitHub Actions Build Maven Project
         run: mvn -B package --file pom.xml
 
-      - name: Step 4 - list current directory
-        run: ls -a
+      - name: Step 4 - List the environment variables
+        run: env
 
       - name: Step 5 - What is the target folder?
         run: |
@@ -82,8 +82,8 @@ jobs:
       - name: Step 3 - Have GitHub Actions Build Maven Project
         run: mvn -B package --file pom.xml
 
-      - name: Step 4 - list current directory
-        run: ls -a
+      - name: Step 4 - List the environment variables
+        run: env
 
       - name: Step 5 - What is the target folder?
         run: |
