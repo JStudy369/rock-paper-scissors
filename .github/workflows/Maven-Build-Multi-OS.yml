@@ -30,11 +30,6 @@ jobs:
       - name: Step 4 - List the environment variables
         run: env
 
-      - name: Step 5 - What is the target folder?
-        run: |
-          cd target
-          ls -a
-
   build-on-windows:
     # The type of runner that the job will run on
     runs-on: windows-latest
@@ -57,12 +52,6 @@ jobs:
       - name: Step 4 - List the environment variables
         run: env
 
-      - name: Step 5 - What is the target folder?
-        run: |
-          cd target
-          ls -a
-
-
   build-on-macos:
     # The type of runner that the job will run on
     runs-on: macos-latest
@@ -84,12 +73,5 @@ jobs:
 
       - name: Step 4 - List the environment variables
         run: env
-
-      - name: Step 5 - What is the target folder?
-        run: |
-          cd target
-          ls -a
-        
-
-        
+    
 
